@@ -1,0 +1,98 @@
+body {
+  background-color: antiquewhite;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  font-family: "Teko", sans-serif;
+ 
+  position: -webkit-sticky;
+  position: sticky;
+  top:0;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  height: 60px;
+  background-color: black;
+  color: white;
+}
+nav ul li {
+  padding: 15px 7px;
+}
+.brand img {
+  height: 49px;
+  padding: 0 8px;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+.bottom {
+  position: sticky;
+  height: 100px;
+  background-color: black;
+  color: white;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.icon {
+  margin-top: 14px;
+}
+.icon i {
+  cursor: pointer;
+}
+.cantainer {
+  height: 80vh;
+  background-color: black;
+  color: rgb(29, 4, 4);
+  font-family: "Righteous", cursive;
+  display: flex;
+  margin: 14px auto;
+  width: 73%;
+  border-radius: 29px;
+  padding: 32px;
+  background-image: url(pexels-mick-haupt-7663548.jpg);
+  background-size: cover;
+}
+#myprogressbar {
+  width: 65vw;
+  cursor: pointer;
+}
+.songItem {
+    height: 35px;
+    display: flex;
+    background-color: rgb(15, 2, 2);
+    width: 130%;
+    color: rgb(242, 240, 240);
+    margin: 8px 4px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 34px;
+}
+.songItem img {
+  height: 37px;
+  margin-left: 16px;
+  border-radius: 34px;
+  align-items: start;
+}
+.margin {
+  margin-top: 30px;
+}
+.play {
+  cursor: pointer;
+}
+.songinfo {
+  position: absolute;
+  left: 9vw;
+  height: 51px;
+  width: 188px;
+  margin-top: 33px;
+}
